@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator{
+    height: 100vh;
+    width: 100%;
+    background: rgb(238, 204, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background: white;
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0px 80px 50px -30px pink;
+}
+
+input{
+    width: 330px;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    text-align: right;
+    color: black; /* Warna teks diubah menjadi hitam agar terlihat */
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgb(252, 237, 239);
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(240, 161, 174);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.equal{
+    width: 144px;
+    color: #fff;
+    background: pink;
+    font-weight: 700;
+}
+
+.other-clr{
+    background: pink;
+    color:#fff;
+    font-weight: 400;
+}
+
+.main{
+   background: rgb(248, 218, 223);  
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgb(252, 237, 239);
+    color: rgb(240, 161, 174);
+    font-weight: 600;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
